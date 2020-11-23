@@ -1,0 +1,329 @@
+@media screen and (max-width: 1500px) {
+  .first__img-wrapper {
+    max-width: 600px;
+    top: 0;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .first__img-wrapper {
+    max-width: 550px;
+    top: 0;
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .container {
+    padding: 0px 20px 0px 20px;
+  }
+  .first__img-wrapper {
+    display: none;
+  }
+  .statistic__wrapper {
+    -webkit-column-gap: 0px;
+       -moz-column-gap: 0px;
+            column-gap: 0px;
+    text-align: center;
+  }
+  .card__img {
+    left: 90px;
+  }
+  .cards__list {
+    row-gap: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card__img {
+    left: 31%;
+  }
+  .adv-cards__list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .header-info__email-link {
+    font-size: 1.3rem;
+  }
+  .header__list {
+    padding-right: 10px;
+  }
+  .advantages__list {
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .cards__list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .login__subtitle {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .card__img {
+    left: 31%;
+  }
+  .adv-cards__list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .header-info__email-link {
+    font-size: 1.3rem;
+  }
+  .header__list {
+    padding-right: 10px;
+  }
+  .advantages__list {
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .cards__list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .menu-icon {
+    display: -ms-grid;
+    display: grid;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+  }
+  .header__menu {
+    position: fixed;
+    top: 50px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #7246f7;
+    z-index: 1;
+    margin-top: 80px;
+    overflow: auto;
+    -webkit-border-radius: 0px;
+            border-radius: 0px;
+  }
+  .menu-active {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  html.lock {
+    overflow: hidden;
+  }
+  .header__line::after {
+    content: '';
+    display: none;
+  }
+  .header__list {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .header__item {
+    margin-top: 10px;
+  }
+  .header__link {
+    font-size: 2rem;
+    color: #fff;
+  }
+  .header__menu::after {
+    content: '';
+    display: none;
+  }
+  .first__title {
+    font-size: 4rem;
+  }
+  .first__text {
+    max-width: 450px;
+  }
+  #invest-start {
+    padding: 250px 0px 300px 0px;
+    background: url(../img/invest_bg.png) no-repeat 1px -1px/contain;
+    -webkit-background-size: 1900px 1900px;
+    background-size: 1900px 1200px;
+  }
+  .invest-start {
+    margin-top: -150px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .invest-start__content {
+    margin-top: 30px;
+  }
+  .advantages__list {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+  .statistic__wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .statistic-counter {
+    margin-top: 30px;
+  }
+  #statistic {
+    background: #2647c8;
+  }
+  .adv-cards__list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: auto;
+  }
+  #steps {
+    padding-bottom: 450px;
+  }
+  .steps {
+    margin-top: 100px;
+  }
+  .cards__list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .program {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .program__info {
+    margin-top: 50px;
+  }
+  .footer {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__menu-list {
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .work {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .work__video-wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  .why {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-top: -80px;
+  }
+  #why {
+    background: url(../img/invest_bg.png) no-repeat 1px 1px/1900px 1200px;
+  }
+  .stock__wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .stock__wrapper img {
+    margin-top: 20px;
+  }
+  .questions {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .questions__img-wrapper {
+    margin-top: 50px;
+  }
+  .tab-title::after {
+    display: none;
+  }
+  .tab :checked + .tab-title::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .header-info__login {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .menu-icon {
+    top: 50px;
+  }
+  .header-info__logo-group {
+    margin-bottom: 20px;
+  }
+  .registration-bg-wrapper {
+    display: none;
+  }
+  .reg-form input {
+    width: 100%;
+  }
+  .reg-form__button {
+    width: 100%;
+  }
+  .log-form input {
+    width: 100%;
+  }
+  .log-form__button {
+    width: 100%;
+  }
+  .login__subtitle {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .first__title {
+    font-size: 2.5rem;
+    margin-top: 60px;
+  }
+  .first__text {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .invest-start__text {
+    max-width: 400px;
+  }
+  .advantages__list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .advantafes__title {
+    font-size: 2.5rem !important;
+  }
+  #steps {
+    display: none;
+  }
+  .form__fields-wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .form__text-wrapper {
+    grid-column: span 1;
+  }
+  .work__link {
+    padding: 22px 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .card__img {
+    left: 25%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
